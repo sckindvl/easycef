@@ -28,6 +28,14 @@ mp.game.app.destroyBrowser(browserName);
 
 
 /**
+ * Returns searched browser exists or not. (Available as of version 1.1.0)
+ * @param {string} browserName			Browser identifier (example: "TestBrowser1").
+ * @return {bool} 						True if exists, otherwise false.
+ */
+mp.game.app.browserExists(browserName);
+
+
+/**
  * Switches browser (destroys old browser and creates new one with same name).
  * @param {string} browserName			Browser identifier (example: "TestBrowser1").
  * @param {string} newPath				Browser Path / starts from client_packages (example: "testcef/index.html").
