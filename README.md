@@ -93,6 +93,6 @@ mp.game.app.getBrowserObject(browserName);
 ## Notes
 
 * With 'isAnyCursorForced' you can work for example by checking in your cursor keybind function if a cursor is forced in any CEF.
-* For any error messages or questions: Feel free to write me on Discord: мαяνιη.#9554
+* For any error messages or questions: Feel free to write me on Discord: sckindvl
 * Not all RAGE browser functions are implemented yet, should be relatively easy to add, maybe an update will come soon
 * There is a 'better cursor' system implemented that automatically shows the cursor if there is a browser that forces it. If you want to disable it and build your own, just set 'isBetterCursorEnabled' in the file to **false**.
